@@ -1,0 +1,9 @@
+p {
+  font-weight:bold;
+  padding:10px;
+  background-color: blue;
+  color:white;
+}
+
+.container1 {background-color:orange}
+.container2 {background-color:red}
