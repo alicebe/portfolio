@@ -1,0 +1,78 @@
+h1 {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight:600;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-align: left;
+  background-color: rgb(0, 110, 255);
+  color:rgb(255, 255, 255);
+}
+h2 {
+  font-family: Arial;
+  font-size: 28px;
+  font-weight:800;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
+p {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight:500;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+}
+a {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight:500;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 110, 255);
+  text-decoration: none;
+  padding: 4px;
+}
+a:hover {
+  font-family: Arial;
+  font-size: 25px;
+  font-weight:800;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 110, 255);
+  text-decoration: underline;
+  padding: 4px;
+}
+
+.container1 {
+  background-color:rgb(255, 255, 255)
+}
+.container2 {
+  background-color:rgb(255, 255, 255)
+}
+.container3 {
+  background-color:rgb(255, 255, 255)
+}
+footer {
+  font-size: 14px;
+ 
+}
+img {
+height: 80px;
+width: 80px
+}
+iframe{
+padding: 100px 200px 100px 200px;
+  }
+iframe:hover{
+background-color: rgb(0, 110, 255);
+}
