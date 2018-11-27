@@ -78,9 +78,5 @@ img {
 }
 
 iframe {
-  padding: 100px 200px 100px 200px;
-}
-
-iframe:hover {
-  background-color: rgb(0, 110, 255);
+  padding: 200px 500px 200px 500px;
 }
