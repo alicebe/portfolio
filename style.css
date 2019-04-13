@@ -43,7 +43,7 @@ img {
 body {
   height: 100%;
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-  background-color: #156b5d;
+  background-color: #000000;
   /* Margin bottom by footer height */
   margin-bottom: 60px; }
 
@@ -53,7 +53,7 @@ h3,
 h4,
 h5 {
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-  color: #07374a; }
+  color: #ffffff; }
 
 p {
   font-family: "Quattrocento", sans-serif;
@@ -104,12 +104,12 @@ body > .container-fluid {
 .navbar-default .navbar-toggle {
   border-color: #f0f0e6; }
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #07374a; }
+    background-color: #009688; }
   .navbar-default .navbar-toggle .icon-bar {
     color: #f0f0e6;
     background-color: #f0f0e6; }
 .navbar-default .navbar-collapse.collapse.in ul {
-  background-color: #07374a; }
+  background-color: #009688; }
 
 /* Solid class attached on scroll past first section */
 .navbar.solid {
@@ -130,7 +130,7 @@ body > .container-fluid {
     padding: 15% 0 10% 0;
     height: 100vh;
     display: flex;
-    background-color: #25b79f; }
+    background-color: #000000; }
   .cover.bottom {
     padding: 10% 0 10% 0; }
 
@@ -168,7 +168,7 @@ body > .container-fluid {
     .about-tools ul:first-child {
       padding-left: 0px; }
     .about-tools ul {
-      color: #25b79f;
+      color: #80D8FF;
       list-style: none; }
       .about-tools ul li {
         padding-top: 0.75em; }
@@ -183,7 +183,7 @@ body > .container-fluid {
       color: #25b79f; }
 
 #portfolio {
-  background-color: #25b79f; }
+  background-color: #009688; }
   #portfolio h2 {
     padding-bottom: 1.25em; }
 
@@ -216,7 +216,7 @@ body > .container-fluid {
   padding-top: 5%; }
 
 #contact {
-  background-color: #07374a; }
+  background-color: #000000; }
   #contact h2 {
     color: #25b79f; }
 
@@ -236,8 +236,8 @@ body > .container-fluid {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 30px;
-  background-color: #07374a;
-  color: #f0f0e6; }
+  background-color: #000000;
+  color: #80D8FF; }
 
 #scrollIcon, #scrollTopIcon {
   margin-top: 200px;
@@ -257,3 +257,11 @@ body > .container-fluid {
   display: none; }
   .back-to-top.visible {
     display: block; }
+
+
+.bg-img {
+background-image: url("welcomepage.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;;
+}
