@@ -14,26 +14,36 @@ $(document).ready(function () {
     });
 
 
-    // Scrolling effect for Arrow icons
-    $("#scrollIcon").click(function (e) {
-        e.preventDefault();
-        $.scrollTo($("#about"), 1000);
-    });
-    $("#nav-about").click(function (e) {
-        e.preventDefault();
-        $.scrollTo($("#about"), 1000);
-    });
-    $("#nav-portfolio").click(function (e) {
-        e.preventDefault();
-        $.scrollTo($("#portfolio"), 1000);
-    });
-    $("#nav-contact").click(function (e) {
-        e.preventDefault();
-        $.scrollTo($("#contact"), 1000);
-    });
-    $(".navbar-brand").click(function (e) {
-        e.preventDefault();
-        $.scrollTo(0, 1000);
+    $("#nav-about").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 1500);
+        return false;
     });
 
+    $("#nav-contact").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 1500);
+        return false;
+    });
+
+    $("#nav-portfolio").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#portfolio").offset().top
+        }, 1500);
+        return false;
+    });
+
+    $("#scrollIcon").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 1500);
+        return false;
+    });
+
+    $(".navbar-brand").click(function() {
+        $('html, body').animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
 });
