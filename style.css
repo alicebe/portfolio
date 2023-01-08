@@ -220,16 +220,26 @@ body > .container-fluid {
   #contact h2 {
     color: #25b79f; }
 
+.social-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-left: 0;
+}
+
 .contact-social-icons p {
-  color: #25b79f; }
+  color: #25b79f;
+}
 .contact-social-icons ul a {
   color: #25b79f;
-  list-style: none; }
+  list-style: none;
+}
   .contact-social-icons ul a:hover {
-    color: #f0f0e6; }
+    color: #f0f0e6;
+  }
   .contact-social-icons ul a li {
-    display: inline-block;
-    padding: 2%; }
+    margin: 1em;
+  }
 
 .footer {
   bottom: 0;
